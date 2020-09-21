@@ -1,1 +1,18 @@
 // Code CoordinatesButton Component Here
+import React, { Component } from 'react';
+
+export default class CoordinatesButton extends Component {
+cor = (event) =>{
+let X = event.clientX;
+let Y = event.clientY;
+}
+  render() {
+    return (
+      <div >
+      <button onClick={cor}></button>
+      </div>
+    )
+  }
+  
+}
+
