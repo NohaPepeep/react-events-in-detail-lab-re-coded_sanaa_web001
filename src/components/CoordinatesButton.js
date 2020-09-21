@@ -5,6 +5,7 @@ export default class CoordinatesButton extends Component {
 cor = (event) =>{
 let X = event.clientX;
 let Y = event.clientY;
+this.props.onReceiveCoordinates(X,Y);
 }
   render() {
     return (
