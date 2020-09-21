@@ -10,7 +10,7 @@ this.props.onReceiveCoordinates([X,Y]);
   render() {
     return (
       <div >
-      <button onClick={cor}></button>
+      <button onClick={this.cor}></button>
       </div>
     )
   }
